@@ -25,8 +25,8 @@ To implement responsive design techniques using CSS media queries so the webpage
 ![Desktop View](lp.png)
 
  Mobile View
-![Mobile View](preview1.png)
-![Mobile View](preview2.png)
+![Mobile View](preview 1.png)
+![Mobile View](preview 2.png)
 
 
 
