@@ -1,0 +1,136 @@
+/* ---------- Reset ---------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+/* ---------- Header ---------- */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000a00;
+    color: rgb(239, 229, 241);
+    padding: 25px 60px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+nav a {
+    font-size: 16px;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #c2d400;
+}
+
+/* ---------- Hero ---------- */
+
+.hero {
+    text-align: center;
+    padding: 140px 40px;
+    background: linear-gradient(to right, #9400d4, #f321ec);
+    color: white;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    margin-bottom: 20px;
+}
+
+.hero button {
+    padding: 10px 25px;
+    border: none;
+    background: white;
+    color: #0c9388;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero button:hover {
+    background: #eeeeee;
+}
+
+/* ---------- Footer ---------- */
+
+footer {
+    text-align: center;
+    background: #0c0b0b;
+    color: rgb(19, 113, 139);
+    padding: 20px;
+}
+
+footer .social a {
+    margin: 0 10px;
+    color: #aad400;
+    text-decoration: none;
+}
+
+/* ---------- Global Responsive Helpers ---------- */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* ---------- Mobile Responsive ---------- */
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+        padding: 10px;
+        border-bottom: 1px solid #333;
+        background: #111;
+        border-radius: 4px;
+    }
+
+    .hero {
+        padding: 60px 20px;
+    }
+
+    .hero h1 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+}
